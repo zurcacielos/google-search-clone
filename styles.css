@@ -1,0 +1,73 @@
+/* Global Styles */
+body {
+    margin: 0;
+    background: #202124;
+    color: #e8eaed;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 30px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #303134;
+    border-radius: 24px;
+    width: 580px;
+    height: 44px;
+    padding: 0 14px;
+}
+
+.icon {
+    color: #9aa0a6;
+    font-size: 20px;
+    margin: 0 8px;
+}
+
+.search-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: #e8eaed;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    background-color: #303134;
+    color: #e8eaed;
+    border: 1px solid transparent; /* Always present, invisible by default */
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+
+.buttons button:hover {
+    border-color: #5f6368; /* Only change the color, not the border size */
+}
+
