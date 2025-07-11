@@ -5,16 +5,22 @@ body {
     color: #e8eaed;
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
-
-/* Container */
-.container {
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin: 10px;
+}
+.main-content {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     align-items: center;
+    justify-content: center;
 }
 
 /* Logo */
@@ -71,3 +77,22 @@ body {
     border-color: #5f6368; /* Only change the color, not the border size */
 }
 
+/* a */
+a {           /* common class for these nav-links */
+    color: rgba(255, 255, 255, 0.87);  /* main text color */
+    font-size: 14px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+a:hover,
+a:focus {
+    background-color: rgba(255, 255, 255, 0.12);  /* hover highlight */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: rgba(255, 255, 255, 0.24);  /* active state */
+}

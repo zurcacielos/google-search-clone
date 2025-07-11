@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Dark Clone (Tailwind Responsive with Top Bar)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="m-0 bg-[#202124] text-[#e8eaed] font-sans min-h-screen flex flex-col">
+
+<!-- Top Bar -->
+<div class="flex items-center px-4 py-2 space-x-4 text-sm">
+    <a href="./index.html" class="text-[rgba(255,255,255,0.87)] rounded px-2 py-1 hover:bg-[rgba(255,255,255,0.12)] hover:text-white">Plain HTML</a>
+    <a href="./index-tailwind.html" class="text-[rgba(255,255,255,0.87)] rounded px-2 py-1 hover:bg-[rgba(255,255,255,0.12)] hover:text-white">Tailwind CSS</a>
+</div>
+
+<!-- Main Content -->
+<div class="flex flex-col items-center flex-1 justify-center w-full px-4">
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_272x92dp.png" alt="Google Logo" class="w-[200px] sm:w-[272px] h-auto mb-8">
+
+    <div class="flex items-center bg-[#303134] rounded-[24px] w-full max-w-[580px] h-[44px] px-[14px]">
+        <span class="material-icons text-[#9aa0a6] text-[20px] mx-2">search</span>
+        <input type="text" class="flex-1 bg-transparent border-none text-[#e8eaed] text-[16px] outline-none" />
+        <span class="material-icons text-[#9aa0a6] text-[20px] mx-2">mic</span>
+        <span class="material-icons text-[#9aa0a6] text-[20px] mx-2">photo_camera</span>
+    </div>
+
+    <div class="mt-8 flex flex-wrap justify-center">
+        <button class="bg-[#303134] text-[#e8eaed] border border-transparent px-5 py-2 m-1 text-sm rounded hover:border-[#5f6368] transition-colors">Google Search</button>
+        <button class="bg-[#303134] text-[#e8eaed] border border-transparent px-5 py-2 m-1 text-sm rounded hover:border-[#5f6368] transition-colors">I'm Feeling Lucky</button>
+    </div>
+</div>
+
+</body>
+</html>
