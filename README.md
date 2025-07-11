@@ -1,6 +1,8 @@
 # Google Search clone
 
-This project shows how to create and style the important parts of Google search page.
+This project shows a Google search page clone.
+
+[See the DEMO here!](https://zurcacielos.github.io/google-search-clone/)
 
 Explore both versions with the top bar on each one.
 
